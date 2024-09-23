@@ -18,4 +18,4 @@ contributes:
   metadata:
     project:
       post-render: 
-        - rm index.loaf index.loap index.loat
+        - rm -f index.loaf index.loap index.loat
