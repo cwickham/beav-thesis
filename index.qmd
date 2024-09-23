@@ -1,0 +1,14 @@
+# Introduction {#sec-intro}
+
+{{< lipsum 1 >}}
+
+In @sec-conclusion
+
+@smith
+
+{{< lipsum 5 >}}
+
+![Memorial Union building on OSU's Corvallis campus. Photo by <a href="https://unsplash.com/@caseface96?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Casey Olsen</a> on <a href="https://unsplash.com/photos/brown-concrete-building-under-white-clouds-during-daytime-NlFyPKxXORo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>](images/casey-olsen-NlFyPKxXORo-unsplash.jpg){#fig-mu fig-scap="Memorial Union building on OSU's Corvallis campus."}
+
+
+  

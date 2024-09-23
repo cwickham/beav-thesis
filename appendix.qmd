@@ -1,0 +1,8 @@
+# Additional Simulations
+
+{{< lipsum >}}
+
+![Snow on Southwest Jefferson Way, Corvallis, OR, USA. Photo by <a href="https://unsplash.com/@kleong808?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kanoa Leong</a> on <a href="https://unsplash.com/photos/a-sidewalk-covered-in-snow-next-to-trees-lBrBF9We7jo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>](images/kanoa-leong-lBrBF9We7jo-unsplash.jpg){#fig-snow fig-scap="Snow on Southwest Jefferson Way."}
+
+
+  
