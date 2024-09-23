@@ -372,10 +372,10 @@
     \end{center}
     \begin{flushleft}
       \noindent
-      \ulinewithbreaks{\@author} for the degree of \ulinewithbreaks{\@degree} in %
-      \if\@twomajor * \ulinewithbreaks{\@major}
+      \ulinewithbreaks{\@author} for the degree of \ulinewithbreaks{\@degree} in%
+      \if\@twomajor * {\ulinewithbreaks{\@major}}
       \else
-      \ulinewithbreaks{\@major} and \ulinewithbreaks{\@twomajor}
+      { \ulinewithbreaks{\@major}} and \ulinewithbreaks{\@twomajor}
       \fi
       presented on \uline{\@submitdate}.\\
       \emptyline
@@ -449,10 +449,8 @@
       \vspace{3em}
       % Second major professor if exists
       \if\@coadvisor *
-      \else\hrulefill \\  Co-Major Professor, representing 
-      \if \@twomajor *
-        \@major \\
-      \else \@twomajor \\
+      \else\hrulefill \\  Co-Major Professor, representing \if\@twomajor *{\@major} \\
+      \else {\@twomajor} \\
       \fi
       \fi
       \vspace{3em}
