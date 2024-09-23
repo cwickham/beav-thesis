@@ -1,5 +1,29 @@
 # `beav` Quarto format for Oregon State University Theses
 
+## Creating a new thesis
+
+Use the following command:
+
+```{.bash}
+quarto use template cwickham/beav-thesis
+```
+
+This will populate a folder with a template thesis along with this extension. Render the thesis with:
+
+```{.bash}
+quarto render --to beav-pdf
+```
+
+Then examine the resulting PDF in `_book/Thesis-Title.pdf`.
+
+## Using in an existing project
+
+Install this extension in your project:
+
+```{.bash}
+quarto add cwickham/beav-thesis
+```
+
 Organize your thesis like a Quarto book, e.g in `_quarto.yml`:
 
 ```{.yaml}
