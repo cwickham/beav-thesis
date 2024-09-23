@@ -1,49 +1,50 @@
 \title{$title$} % {An Analysis of Something}
-\author{$author$} % {Joseph A. Student}
-\degree{$degree$} % {Master of Science}
 \submitdate{$date$} % {January 1, 2013}
-\commencementyear{$commencementyear$} % {2013}
-\doctype{$doctype$}
+\author{$author$} % {Joseph A. Student}
 
-\department{$department$} % {Nuclear Engineering and Radiation Health Physics}
-$if(twodepartment)$
-	\twodepartment{$twodepartment$}
+\degree{$thesis.degree$} % {Master of Science}
+\commencementyear{$thesis.commencementyear$} % {2013}
+\doctype{$thesis.doctype$}
+
+\department{$thesis.department$} % {Nuclear Engineering and Radiation Health Physics}
+$if(thesis.twodepartment)$
+	\twodepartment{$thesis.twodepartment$}
 $endif$
 
-\depttype{$depttype$} % {School}
-$if(twodepttype)$
-	\twodepttype{$twodepttype$}
+\depttype{$thesis.depttype$} % {School}
+$if(thesis.twodepttype)$
+	\twodepttype{$thesis.twodepttype$}
 $endif$
 
-\depthead{$depthead$} % {Director}
-$if(twodepthead)$
-	\twodepthead{$twodepthead$}
+\depthead{$thesis.depthead$} % {Director}
+$if(thesis.twodepthead)$
+	\twodepthead{$thesis.twodepthead$}
 $endif$
 
-\major{$major$} % {Radiation Health Physics}
-$if(twomajor)$
-	\twomajor{$twomajor$}
+\major{$thesis.major$} % {Radiation Health Physics}
+$if(thesis.twomajor)$
+	\twomajor{$thesis.twomajor$}
 $endif$
 
-\advisor{$advisor$} % {Jane R. Professor}
-$if(coadvisor)$
-	\coadvisor{$coadvisor$}
+\advisor{$thesis.advisor$} % {Jane R. Professor}
+$if(thesis.coadvisor)$
+	\coadvisor{$thesis.coadvisor$}
 $endif$
 
-\abstract{$thesis-abstract$}
+\abstract{$thesis.abstract$}
 
-\acknowledgements{$acknowledgements$}
-
-
-$if(contributors)$
-	\contributors{$contributors$}
+$if(thesis.acknowledgements)$
+	\acknowledgements{$thesis.acknowledgements$}
 $endif$
 
-
-$if(dedication)$
-	\dedication{$dedication$}
+$if(thesis.contributors)$
+	\contributors{$thesis.contributors$}
 $endif$
 
-$if(preface)$
-	\preface{$preface$}
+$if(thesis.dedication)$
+	\dedication{$thesis.dedication$}
+$endif$
+
+$if(thesis.preface)$
+	\preface{$thesis.preface$}
 $endif$

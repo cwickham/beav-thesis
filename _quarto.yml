@@ -5,7 +5,6 @@ book:
   title: "Thesis Title"
   author: "Jane Doe"
   date: "January 1, 2013"
-  date-format: long
   chapters:
     - index.qmd
     - conclusion.qmd
@@ -18,16 +17,16 @@ bibliography: references.bib
 format:
   html: default
   beav-pdf: default
-    
-department: Nuclear Engineering and Radiation Health Physics
-depttype: School
-depthead: Director
-doctype: Dissertation
-major: Statistics
-twomajor: Other dept
-advisor: Jane R. Professor
-coadvisor: John S. Professor
-commencementyear: 2013
-degree: Master of Science
-acknowledgements: I would like to acknowledge...
-thesis-abstract: "This is a LaTex template derived from the beavtex template found on the Oregon State University Math Department website. "
+
+thesis:    
+  department: Statistics
+  depttype: Department
+  depthead: Head
+  doctype: Dissertation
+  major: Statistics
+  advisor: Jane R. Professor
+  coadvisor: John S. Professor
+  commencementyear: 2013
+  degree: Master of Science
+  acknowledgements: I would like to acknowledge...
+  thesis-abstract: "This is a LaTex template derived from the beavtex template found on the Oregon State University Math Department website. "
