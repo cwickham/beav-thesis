@@ -11,12 +11,6 @@ book:
     - references.qmd
   appendices: 
     - appendix.qmd
-   
-bibliography: references.bib
-
-format:
-  html: default
-  beav-pdf: default
 
 thesis:    
   department: Statistics
@@ -30,3 +24,11 @@ thesis:
   degree: Master of Science
   acknowledgements: I would like to acknowledge...
   thesis-abstract: "This is a LaTex template derived from the beavtex template found on the Oregon State University Math Department website. "
+   
+bibliography: references.bib
+
+format:
+  html: default
+  beav-pdf: 
+    keep-tex: true
+
