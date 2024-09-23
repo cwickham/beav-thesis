@@ -23,7 +23,9 @@ thesis:
   commencementyear: 2013
   degree: Master of Science
   acknowledgements: I would like to acknowledge...
-  thesis-abstract: "This is a LaTex template derived from the beavtex template found on the Oregon State University Math Department website. "
+  abstract: > 
+    This is a LaTex template derived from the beavtex template found 
+    on the Oregon State University Math Department website.
    
 bibliography: references.bib
 
