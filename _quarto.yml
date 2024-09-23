@@ -1,7 +1,5 @@
 project:
   type: book
-  post-render: 
-    - rm index.loaf index.loap index.loat
 
 book:
   title: "Thesis Title"
@@ -19,22 +17,14 @@ bibliography: references.bib
 
 format:
   html: default
-  pdf: 
-    link-citations: true
-    documentclass: beavtex
-    classoption: [double, 12pt, 1.0in]
-    template-partials: 
-      - partials/title.tex
-      - partials/before-body.tex
-      - partials/toc.tex
-
-thesis:
+  beav-pdf: default
+    
 department: Nuclear Engineering and Radiation Health Physics
 depttype: School
 depthead: Director
 doctype: Dissertation
-major: Radiation Health Physics
-twomajor: Statistics
+major: Statistics
+twomajor: Other dept
 advisor: Jane R. Professor
 coadvisor: John S. Professor
 commencementyear: 2013

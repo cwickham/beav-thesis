@@ -1,0 +1,20 @@
+title: Beaver Thesis
+author: Charlotte Wickham
+version: 0.0.1
+quarto-required: ">=1.5"
+contributes:
+  formats:
+    pdf:
+      link-citations: true
+      documentclass: beavtex
+      classoption: [double, 12pt, 1.0in]
+      template-partials: 
+        - partials/title.tex
+        - partials/before-body.tex
+        - partials/toc.tex
+      format-resources:
+        - beavtex.cls
+  metadata:
+    project:
+      post-render: 
+        - rm index.loaf index.loap index.loat
